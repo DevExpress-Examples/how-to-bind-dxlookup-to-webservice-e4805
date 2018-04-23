@@ -1,0 +1,5 @@
+<div data-options="dxView : { name: 'Index', title: 'Home' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div data-bind="dxLookup:{dataSource: dSource, displayExpr: 'CategoryName', valueExpr: 'CategoryID'}"></div>
+    </div>
+</div>
